@@ -1,12 +1,9 @@
 <ion-content [fullscreen]="true" [scrollEvents]="true">
   <!-- Begin page -->
-  <div id="wrapper">
-    <div style="padding-bottom: 19px">
-      <app-top-bar></app-top-bar>
-      <app-top-nav></app-top-nav>
-    </div>
+    <app-top-bar></app-top-bar>
+    <app-top-nav></app-top-nav>
     <app-left-side-menu></app-left-side-menu>
-    <div class="content-page" style="padding-top: 19px">
+    <div class="content-page">
       <div class="content">
         <div class="container-fluid">
           <app-product-new></app-product-new>
@@ -14,5 +11,4 @@
         </div>
       </div>
     </div>
-  </div>
 </ion-content>

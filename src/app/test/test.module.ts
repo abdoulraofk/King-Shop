@@ -8,6 +8,7 @@ import { TestPageRoutingModule } from './test-routing.module';
 
 import { TestPage } from './test.page';
 import { ArticleComponent } from '../components/article/article.component';
+import { TestScrollComponent } from '../components/test-scroll/test-scroll.component';
 
 @NgModule({
   imports: [
@@ -16,6 +17,6 @@ import { ArticleComponent } from '../components/article/article.component';
     IonicModule,
     TestPageRoutingModule,
   ],
-  declarations: [TestPage, ArticleComponent]
+  declarations: [TestPage, ArticleComponent, TestScrollComponent]
 })
 export class TestPageModule {}
