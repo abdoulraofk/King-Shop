@@ -1,0 +1,7 @@
+{
+  "name": "king-shop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
