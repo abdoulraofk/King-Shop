@@ -30,8 +30,23 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": [],
+            "styles": [
+              "src/assets/ubold-assets/libs/flatpickr/flatpickr.min.css",
+              "src/assets/libs/selectize/css/selectize.bootstrap3.css",
+              "src/assets/ubold-assets/css/bootstrap.min.css",
+              "src/assets/ubold-assets/css/app.min.css",
+              "src/assets/ubold-assets/css/icons.min.css",
+              "src/theme/variables.scss", 
+              "src/global.scss"
+            ],
+            "scripts": [
+              "src/assets/ubold-assets/js/vendor.min.js",
+              "src/assets/libs/flatpickr/flatpickr.min.js",
+              "src/assets/libs/apexcharts/apexcharts.min.js",
+              "src/assets/libs/selectize/js/standalone/selectize.min.js",
+              "src/assets/js/pages/dashboard-1.init.js",
+              "src/assets/js/app.min.js"
+            ],
             "aot": false,
             "vendorChunk": true,
             "extractLicenses": false,
@@ -148,7 +163,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": false
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
